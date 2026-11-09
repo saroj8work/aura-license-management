@@ -1,0 +1,20 @@
+{
+  "format": "AURA_LIFESCIENCES_LIC_V1",
+  "license_key": "AURA-GXP-DEMO-2026-AIRGAP",
+  "claims": {
+    "license_key": "AURA-GXP-DEMO-2026-AIRGAP",
+    "tenant_name": "Genomics Diagnostics Corp - Cleanroom Lab #3",
+    "allowed_features": [
+      "ngs_alignment",
+      "variant_calling",
+      "pdf_report_export"
+    ],
+    "expires_at": "2030-01-01T00:00:00",
+    "issued_at": "2026-01-01T00:00:00"
+  },
+  "payload_sha256": "78d860a17b9691a87943bf7387a4166c2d302b9c6f6f80a61b9b3c47f02d702f",
+  "signature": "97Les9xf8dYR9NgY5Ws9ndpsI5e4t-TRB0eVkYIcxv9-kfDxit-T6BGET3oOlHinooFvXrwIrKReC2DWj6JABA==",
+  "public_key": "Xt/4GhCydZzlPC28aqtowDQp5cJ0FdogIT8yGl/kyW0=",
+  "algorithm": "Ed25519",
+  "issuer": "Aura License Authority (Cloud/Local)"
+}

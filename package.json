@@ -1,0 +1,13 @@
+{
+  "name": "aura-license-management-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Monorepo for Aura Life Sciences License & Subscription Management Platform (FastAPI + React)",
+  "scripts": {
+    "frontend:dev": "cd frontend && npm run dev",
+    "frontend:build": "cd frontend && npm run build",
+    "backend:test": "set PYTHONPATH=backend && python -m pytest backend/tests/test_backend.py -v",
+    "backend:start": "scripts\\start_backend.bat",
+    "frontend:start": "scripts\\start_frontend.bat"
+  }
+}
